@@ -257,6 +257,7 @@ div > .container {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 16px;
+    padding-top: 12px;
 }
 
 .modal__form__input-2:placeholder-shown {
@@ -848,8 +849,6 @@ div > .container {
 
 }
 
-
-
 .footer-icon {
     background: var(--color-footer-icons);
     display: flex;
@@ -933,6 +932,85 @@ div > .container {
     width: 100%;
     border-radius: 1%;
 }    
+
+.footer__form__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer__form__mail:placeholder-shown {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__form__mail:focus-visible, .footer__form__mail:hover {
+    border: 1px solid gray;
+}
+
+.footer__form__button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+    padding-left: 40px;
+    margin-left: 12px;
+}
+
+.footer__form__button__icon {
+    position: absolute;
+    left: 160px;
+    top: 13px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__form {
+    margin-left: 93px;
+    padding-bottom: 60px
+}
+
+.footer__form__container {
+    display: flex;
+}
+
+.footer__form__mail {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 101px;
+    background: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
 
 .portfolio-button-container {
     display: flex;

@@ -26,53 +26,46 @@
                     </label>
                         <div class="form">
                             <div class="pos-relative">
-                            <input class="modal__form__input" type="text" name="name" id="input-name">
+                            <input class="modal__form__input" type="text" name="name" id="input-name" required>
                             <svg class="modal__form__svg">
                                 <use href="./images/symbol-defs.svg#icon-persona-negra-18dp-1"></use>
                             </svg>
                         </div>
                     </div>
-                    </form>
-
-                    <form>
-                        <label for="input-name" class="modal__p">
-                            Teléfono
-                        </label>
-                        <div class="form">
-                            <div class="pos-relative">
-                                <input class="modal__form__input" type="text" name="name" id="input-name">
-                                <svg class="modal__form__svg">
-                                    <use href="./images/symbol-defs.svg#icon-telfono-negro-18dp-1"></use>
-                                </svg>
-                            </div>
+                    
+                    <label for="input-name" class="modal__p">
+                        Teléfono
+                    </label>
+                    <div class="form">
+                        <div class="pos-relative">
+                            <input class="modal__form__input" type="text" name="name" id="input-name" required>
+                            <svg class="modal__form__svg">
+                                <use href="./images/symbol-defs.svg#icon-telfono-negro-18dp-1"></use>
+                            </svg>
                         </div>
-                    </form>
-
-                    <form>
-                        <label for="input-name" class="modal__p">
-                            E-mail
-                        </label>
-                        <div class="form">
-                            <div class="pos-relative">
-                                <input class="modal__form__input" type="email" name="name" id="input-name">
-                                <svg class="modal__form__svg">
-                                    <use href="./images/symbol-defs.svg#icon-correo-electrnico-negro-18dp-1"></use>
-                                </svg>
-                            </div>
+                    </div>
+                
+                    <label for="input-name" class="modal__p">
+                        E-mail
+                    </label>
+                    <div class="form">
+                        <div class="pos-relative">
+                            <input class="modal__form__input" type="email" name="name" id="input-name" required>
+                            <svg class="modal__form__svg">
+                                <use href="./images/symbol-defs.svg#icon-correo-electrnico-negro-18dp-1"></use>
+                            </svg>
                         </div>
-                    </form>
-
-                    <form>
-                        <label for="input-name" class="modal__p">
-                            Comentarios
-                        </label>
-                        <div class="form">
-                            <div class="pos-relative">
-                                <input class="modal__form__input-2" type="text" name="name" id="input-name" placeholder="introduzca el texto">
-                            </div>
-                            
+                    </div>
+                    <label for="input-name" class="modal__p">
+                        Comentarios
+                    </label>
+                    <div class="form">
+                        <div class="pos-relative">
+                            <textarea class="modal__form__input-2" type="textarea" name="name" id="input-name" placeholder="introduzca el texto"></textarea>
                         </div>
-                    </form>
+                        
+                    </div>
+                    
 
                     <div class="checkbox-container">
                         <label class="checkbox-container-2">
@@ -84,8 +77,9 @@
                             </span>
                             <p class="checkbox-text">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
                         </label>
-                        <button class="checkbox-button">Enviar</button>
+                        <button type="submit" class="checkbox-button">Enviar</button>
                     </div>
+                    </form>
             </div>
         </div>
         
@@ -414,6 +408,20 @@
                                 </svg>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="footer__form">
+                        <h2 class="footer__form__title">SUSCRÍBASE al boletín informativo</h2>
+                            <form class="footer__form__container">
+                                <input class="footer__form__mail" type="mail" placeholder="Correo electrónico" required></input>
+                                <div class="pos-relative">
+                                <button type="submit" class="footer__form__button">Suscríbase</button>
+                                <svg class="footer__form__button__icon">
+                                    <use href="/images/icons.svg#icon-send"></use>
+                                </svg>
+                                </div>
+                            </form>
+
                     </div>
                 
                 </div>
